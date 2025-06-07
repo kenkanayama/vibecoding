@@ -1,0 +1,9 @@
+---
+description: GitHubに関する操作は、可能な限りGitHub MCP（Machine Control Panel）機能を優先して使用する。MCPで対応できない操作のみ、ローカルのgitコマンドを利用する。 GitHubでプルリクエストを作成する際は、ぷリクエスト後に必ずコメント欄に「bugbot run」という文言を含め、CursorのBugBotが自動実行されるようにする。
+globs: 
+alwaysApply: false
+---
+# github
+
+- GitHubに関する操作は、可能な限りGitHub MCP（Machine Control Panel）機能を優先して使用する。MCPで対応できない操作のみ、ローカルのgitコマンドを利用する。
+- GitHubでプルリクエストを作成する際は、必ずコメント欄に「bugbot run」という文言を含め、CursorのBugBotが自動実行されるようにする。
