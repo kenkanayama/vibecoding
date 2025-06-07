@@ -1,0 +1,24 @@
+# .envファイル（環境変数）
+.env
+.env.*
+
+# GCPサービスアカウントキー
+gcp-service-account.json
+
+# Node.js関連
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS・エディタ関連
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+*.log
+
+# Next.jsビルド成果物
+.next/
+out/

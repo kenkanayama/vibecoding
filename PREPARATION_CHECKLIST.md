@@ -48,3 +48,12 @@
 ---
 
 このチェックリストをすべて完了したら、開発・デプロイ作業にスムーズに進めます。 
+
+# Spotify
+SPOTIFY_CLIENT_ID=取得したClientID
+SPOTIFY_CLIENT_SECRET=取得したClientSecret
+SPOTIFY_REDIRECT_URI=http://localhost:3000/api/auth/callback/spotify
+
+# GCP
+GCP_PROJECT_ID=your-gcp-project-id
+GCP_SERVICE_ACCOUNT_KEY_PATH=./gcp-service-account.json 
